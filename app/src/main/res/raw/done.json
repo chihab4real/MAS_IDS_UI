@@ -1,0 +1,137 @@
+[{
+  "version": "1.0",
+  "image": {
+    "name": "/home/videosdownloader/public_html/image/public/uploadt/1930264_check_complete_done_green_success_icon.svg",
+    "baseName": "1930264_check_complete_done_green_success_icon.svg",
+    "format": "SVG",
+    "formatDescription": "SVG",
+    "mimeType": "image/svg+xml",
+    "class": "DirectClass",
+    "geometry": {
+      "width": 512,
+      "height": 512,
+      "x": 0,
+      "y": 0
+    },
+    "units": "Undefined",
+    "type": "TrueColorAlpha",
+    "baseType": "Undefined",
+    "endianness": "Undefined",
+    "colorspace": "sRGB",
+    "depth": 16,
+    "baseDepth": 16,
+    "channelDepth": {
+      "alpha": 1,
+      "red": 16,
+      "green": 16,
+      "blue": 1
+    },
+    "pixels": 1048576,
+    "imageStatistics": {
+      "Overall": {
+        "min": 11051,
+        "max": 65535,
+        "mean": 48679.4,
+        "median": 65535,
+        "standardDeviation": 13242.4,
+        "kurtosis": -0.958442,
+        "skewness": -0.760574,
+        "entropy": 0.0790255
+      }
+    },
+    "channelStatistics": {
+      "alpha": {
+        "min": 65535,
+        "max": 65535,
+        "mean": 65535,
+        "median": 65535,
+        "standardDeviation": 0,
+        "kurtosis": 8.192e+51,
+        "skewness": 1e+36,
+        "entropy": 0
+      },
+      "red": {
+        "min": 11051,
+        "max": 65535,
+        "mean": 31903.2,
+        "median": 65535,
+        "standardDeviation": 26422.4,
+        "kurtosis": -1.76352,
+        "skewness": 0.482465,
+        "entropy": 0.105117
+      },
+      "green": {
+        "min": 46774,
+        "max": 65535,
+        "mean": 53954.2,
+        "median": 65535,
+        "standardDeviation": 9098.28,
+        "kurtosis": -1.76352,
+        "skewness": 0.482465,
+        "entropy": 0.105674
+      },
+      "blue": {
+        "min": 29555,
+        "max": 65535,
+        "mean": 43325.3,
+        "median": 65535,
+        "standardDeviation": 17448.8,
+        "kurtosis": -1.76352,
+        "skewness": 0.482465,
+        "entropy": 0.105311
+      }
+    },
+    "renderingIntent": "Perceptual",
+    "gamma": 0.454545,
+    "chromaticity": {
+      "redPrimary": {
+        "x": 0.64,
+        "y": 0.33
+      },
+      "greenPrimary": {
+        "x": 0.3,
+        "y": 0.6
+      },
+      "bluePrimary": {
+        "x": 0.15,
+        "y": 0.06
+      },
+      "whitePrimary": {
+        "x": 0.3127,
+        "y": 0.329
+      }
+    },
+    "matteColor": "#BDBDBD",
+    "backgroundColor": "#FFFFFF",
+    "borderColor": "#DFDFDF",
+    "transparentColor": "#00000000",
+    "interlace": "None",
+    "intensity": "Undefined",
+    "compose": "Over",
+    "pageGeometry": {
+      "width": 512,
+      "height": 512,
+      "x": 0,
+      "y": 0
+    },
+    "dispose": "Undefined",
+    "iterations": 0,
+    "compression": "Undefined",
+    "orientation": "Undefined",
+    "properties": {
+      "date:create": "2022-06-02T15:17:37+00:00",
+      "date:modify": "2022-06-02T15:17:37+00:00",
+      "signature": "6e18fe5aff53629fcce9697f8fb5301932390b2024b8a1b2ca5cbc39848c3999"
+    },
+    "artifacts": {
+      "mvg:vector-graphics": "push graphic-context \"Layer_1\"\ncompliance \"SVG\"\nfill \"black\"\nfill-opacity 1\nstroke \"none\"\nstroke-width 1\nstroke-opacity 1\nfill-rule nonzero\nviewbox 0 0 512 512\naffine 1 0 0 1 0 0\npush class \"st0\"\nfill \"#2BB673\"\npop class\npush class \"st1\"\nfill \"none\"\nstroke \"#FFFFFF\"\nstroke-width 30\nstroke-miterlimit \"10\"\npop class\npush graphic-context \"XMLID_3_\"\nclass \"st0\"\npath \"M489,255.9c0-0.2,0-0.5,0-0.7c0-1.6,0-3.2-0.1-4.7c0-0.9-0.1-1.8-0.1-2.8c0-0.9-0.1-1.8-0.1-2.7  c-0.1-1.1-0.1-2.2-0.2-3.3c0-0.7-0.1-1.4-0.1-2.1c-0.1-1.2-0.2-2.4-0.3-3.6c0-0.5-0.1-1.1-0.1-1.6c-0.1-1.3-0.3-2.6-0.4-4  c0-0.3-0.1-0.7-0.1-1C474.3,113.2,375.7,22.9,256,22.9S37.7,113.2,24.5,229.5c0,0.3-0.1,0.7-0.1,1c-0.1,1.3-0.3,2.6-0.4,4  c-0.1,0.5-0.1,1.1-0.1,1.6c-0.1,1.2-0.2,2.4-0.3,3.6c0,0.7-0.1,1.4-0.1,2.1c-0.1,1.1-0.1,2.2-0.2,3.3c0,0.9-0.1,1.8-0.1,2.7  c0,0.9-0.1,1.8-0.1,2.8c0,1.6-0.1,3.2-0.1,4.7c0,0.2,0,0.5,0,0.7c0,0,0,0,0,0.1s0,0,0,0.1c0,0.2,0,0.5,0,0.7c0,1.6,0,3.2,0.1,4.7  c0,0.9,0.1,1.8,0.1,2.8c0,0.9,0.1,1.8,0.1,2.7c0.1,1.1,0.1,2.2,0.2,3.3c0,0.7,0.1,1.4,0.1,2.1c0.1,1.2,0.2,2.4,0.3,3.6  c0,0.5,0.1,1.1,0.1,1.6c0.1,1.3,0.3,2.6,0.4,4c0,0.3,0.1,0.7,0.1,1C37.7,398.8,136.3,489.1,256,489.1s218.3-90.3,231.5-206.5  c0-0.3,0.1-0.7,0.1-1c0.1-1.3,0.3-2.6,0.4-4c0.1-0.5,0.1-1.1,0.1-1.6c0.1-1.2,0.2-2.4,0.3-3.6c0-0.7,0.1-1.4,0.1-2.1  c0.1-1.1,0.1-2.2,0.2-3.3c0-0.9,0.1-1.8,0.1-2.7c0-0.9,0.1-1.8,0.1-2.8c0-1.6,0.1-3.2,0.1-4.7c0-0.2,0-0.5,0-0.7  C489,256,489,256,489,255.9C489,256,489,256,489,255.9z\"\npop graphic-context\npush graphic-context \"XMLID_1_\"\npush graphic-context \"XMLID_2_\"\nclass \"st1\"\nline 213.6,344.2 369.7,188.2\npop graphic-context\npush graphic-context \"XMLID_4_\"\nclass \"st1\"\nline 233.8,345.2 154.7,266.1\npop graphic-context\npop graphic-context\npop graphic-context\n"
+    },
+    "tainted": false,
+    "filesize": "1740B",
+    "numberPixels": "262144",
+    "pixelsPerSecond": "7.84089MB",
+    "userTime": "0.050u",
+    "elapsedTime": "0:01.033",
+    "version": "ImageMagick 7.0.10-58 Q16 x86_64 2021-01-14 https://imagemagick.org"
+  }
+}]

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MAS_IDS_UI</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_home">Accueil</string>
+    <string name="title_agents">Plateforme</string>
+    <string name="title_settings">Paramètres</string>
+    <string name="title_activity_main_m">MainM</string>
+
+
+</resources>

@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/header_layout"
+    android:layout_height="match_parent"
+    android:background="@color/green2"
+    tools:context=".MainClassifDetails">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <LinearLayout
+
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+
+                android:id="@+id/relativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="?actionBarSize"
+
+
+
+
+                android:gravity="center">
+
+
+
+
+                <TextView
+
+                    android:layout_weight="0.7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/source_sans_pro"
+                    android:gravity="start"
+                    android:text="Adminstrateur"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+
+                    android:layout_weight="0.2"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/coding"
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:background="@color/grey"
+            app:cardElevation="0dp"
+            android:layout_marginBottom="5dp"
+            app:cardCornerRadius="35dp"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+
+                android:background="@color/grey"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ScrollView
+                    android:scrollbars="none"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:background="@color/grey"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <androidx.cardview.widget.CardView
+
+                            app:cardElevation="0dp"
+                            android:layout_marginTop="20dp"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginBottom="10dp"
+                            app:cardCornerRadius="20dp">
+
+                            <RelativeLayout
+                                android:id="@+id/cardlayout"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@color/green2">
+
+                                <LinearLayout
+
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+
+                                    android:clickable="true"
+
+
+                                    android:gravity="center"
+                                    android:orientation="horizontal"
+
+                                    >
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginTop="15dp"
+
+                                        android:layout_marginBottom="15dp"
+                                        android:layout_weight="0.5"
+                                        android:fontFamily="@font/source_sans_pro"
+                                        android:text="Informations\ndes classifcateurs"
+                                        android:textAlignment="textStart"
+                                        android:textColor="@color/white"
+                                        android:textSize="20dp"
+
+
+                                        android:textStyle="bold" />
+
+                                    <ImageView
+
+
+                                        android:layout_width="70dp"
+                                        android:layout_height="70dp"
+
+                                        android:layout_marginTop="15dp"
+
+                                        android:layout_marginBottom="15dp"
+                                        android:layout_weight="0.5"
+                                        android:src="@drawable/statistics" />
+
+
+                                </LinearLayout>
+                            </RelativeLayout>
+
+                        </androidx.cardview.widget.CardView>
+
+                        <HorizontalScrollView
+
+                            android:scrollbars="none"
+                            android:background="@color/grey"
+                            android:id="@+id/horizontalScrollView"
+                            android:layout_width="match_parent"
+                            android:layout_height="?actionBarSize"
+
+                            >
+
+                            <LinearLayout
+
+
+
+                                android:orientation="horizontal"
+                                android:background="@color/grey"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent">
+
+                                <androidx.cardview.widget.CardView
+                                    app:cardElevation="0dp"
+                                    app:cardCornerRadius="7dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_gravity="center"
+                                    android:background="@color/blue_v"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <RelativeLayout
+                                        android:id="@+id/info_layout"
+                                        android:background="@color/green2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                        <TextView
+                                            android:id="@+id/info_txt"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="7dp"
+                                            android:layout_marginTop="7dp"
+                                            android:layout_marginEnd="7dp"
+                                            android:layout_marginBottom="7dp"
+                                            android:fontFamily="@font/source_sans_pro"
+                                            android:text="Informations"
+                                            android:textColor="@color/white"
+                                            android:textSize="15sp"
+                                            android:textStyle="bold" />
+
+                                    </RelativeLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    app:cardElevation="0dp"
+                                    app:cardCornerRadius="7dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_gravity="center"
+                                    android:background="@color/blue_v"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <RelativeLayout
+                                        android:id="@+id/all_layout"
+                                        android:background="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                        <TextView
+                                            android:id="@+id/all_txt"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="7dp"
+                                            android:layout_marginTop="7dp"
+                                            android:layout_marginEnd="7dp"
+                                            android:layout_marginBottom="7dp"
+                                            android:fontFamily="@font/source_sans_pro"
+                                            android:text="Générale"
+                                            android:textColor="@color/green2"
+                                            android:textSize="15sp"
+                                            android:textStyle="bold" />
+
+                                    </RelativeLayout>
+                                </androidx.cardview.widget.CardView>
+                                <androidx.cardview.widget.CardView
+                                    app:cardElevation="0dp"
+                                    app:cardCornerRadius="7dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_gravity="center"
+                                    android:background="@color/blue_v"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <RelativeLayout
+                                        android:id="@+id/fmeasur_layout"
+                                        android:background="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                        <TextView
+                                            android:id="@+id/fmeasur_txt"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="7dp"
+                                            android:layout_marginTop="7dp"
+                                            android:layout_marginEnd="7dp"
+                                            android:layout_marginBottom="7dp"
+                                            android:fontFamily="@font/source_sans_pro"
+                                            android:text="F-Measure"
+                                            android:textColor="@color/green2"
+                                            android:textSize="15sp"
+                                            android:textStyle="bold" />
+
+                                    </RelativeLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    app:cardElevation="0dp"
+                                    app:cardCornerRadius="7dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_gravity="center"
+                                    android:background="@color/blue_v"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+
+                                    <RelativeLayout
+                                        android:id="@+id/pres_layout"
+
+                                        android:background="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                        <TextView
+                                            android:id="@+id/pres_txt"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="7dp"
+                                            android:layout_marginTop="7dp"
+                                            android:layout_marginEnd="7dp"
+                                            android:layout_marginBottom="7dp"
+                                            android:fontFamily="@font/source_sans_pro"
+                                            android:text="Précision"
+                                            android:textColor="@color/green2"
+                                            android:textSize="15sp"
+                                            android:textStyle="bold" />
+
+                                    </RelativeLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    app:cardElevation="0dp"
+                                    app:cardCornerRadius="7dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_gravity="center"
+                                    android:background="@color/white"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <RelativeLayout
+                                        android:id="@+id/falsep_layout"
+                                        android:background="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                        <TextView
+                                            android:id="@+id/falsep_txt"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="7dp"
+                                            android:layout_marginTop="7dp"
+                                            android:layout_marginEnd="7dp"
+                                            android:layout_marginBottom="7dp"
+                                            android:fontFamily="@font/source_sans_pro"
+                                            android:text="Faux positifs"
+                                            android:textColor="@color/green2"
+                                            android:textSize="15sp"
+                                            android:textStyle="bold" />
+
+                                    </RelativeLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    app:cardElevation="0dp"
+                                    app:cardCornerRadius="7dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_gravity="center"
+                                    android:background="@color/white"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+                                    <RelativeLayout
+                                        android:id="@+id/kapp_layout"
+                                        android:background="@color/white"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content">
+
+                                        <TextView
+                                            android:id="@+id/kapp_txt"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="7dp"
+                                            android:layout_marginTop="7dp"
+                                            android:layout_marginEnd="7dp"
+                                            android:layout_marginBottom="7dp"
+                                            android:fontFamily="@font/source_sans_pro"
+                                            android:text="Kappa"
+                                            android:textColor="@color/green2"
+                                            android:textSize="15sp"
+                                            android:textStyle="bold" />
+
+                                    </RelativeLayout>
+                                </androidx.cardview.widget.CardView>
+
+                            </LinearLayout>
+
+                        </HorizontalScrollView>
+
+
+
+                        <LinearLayout
+                            android:id="@+id/info_real_layout"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+
+
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <androidx.cardview.widget.CardView
+
+
+                                    app:cardElevation="0dp"
+                                    android:layout_width="90dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="20dp"
+
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginRight="10dp"
+                                    app:cardCornerRadius="20dp">
+
+                                    <RelativeLayout
+
+
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:background="@color/blue_d">
+
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginBottom="17dp"
+                                            android:gravity="center"
+                                            android:orientation="vertical">
+
+                                            <ImageView
+
+                                                android:layout_width="70dp"
+
+                                                android:layout_height="70dp"
+
+                                                android:layout_marginTop="10dp"
+
+                                                android:src="@drawable/networking" />
+
+                                            <TextView
+
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="5dp"
+                                                android:layout_marginTop="5dp"
+
+                                                android:layout_marginRight="5dp"
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="Arbre de décision"
+                                                android:textAlignment="center"
+                                                android:textColor="@color/white"
+                                                android:textSize="16sp"
+                                                android:textStyle="bold" />
+
+
+                                        </LinearLayout>
+                                    </RelativeLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_marginRight="20dp"
+                                    app:cardCornerRadius="20dp"
+                                    app:cardElevation="0dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                    <RelativeLayout
+
+                                        android:background="@color/white"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <LinearLayout
+
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:gravity="center"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginTop="10dp"
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="Taille de l'ensemble d'entraînement"
+                                                android:textColor="@color/grey4"
+                                                android:textSize="12sp" />
+
+                                            <TextView
+                                                android:id="@+id/dttrain_data_size"
+                                                android:textStyle="bold"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="1200"
+                                                android:textColor="@color/black"
+                                                android:textSize="13sp" />
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginTop="5dp"
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="F-Measure"
+                                                android:textColor="@color/grey4"
+                                                android:textSize="12sp" />
+
+                                            <TextView
+                                                android:id="@+id/dt_fm"
+                                                android:textStyle="bold"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="100%"
+                                                android:textColor="@color/black"
+                                                android:textSize="13sp" />
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginTop="5dp"
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="Précision"
+                                                android:textColor="@color/grey4"
+                                                android:textSize="12sp" />
+
+                                            <TextView
+                                                android:id="@+id/dt_pre"
+                                                android:textStyle="bold"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="100%"
+                                                android:textColor="@color/black"
+                                                android:textSize="13sp" />
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginTop="5dp"
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="Faux positifs"
+                                                android:textColor="@color/grey4"
+                                                android:textSize="12sp" />
+
+                                            <TextView
+                                                android:id="@+id/dt_fp"
+                                                android:textStyle="bold"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="100%"
+                                                android:textColor="@color/black"
+                                                android:textSize="13sp" />
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginTop="5dp"
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="Kappa"
+                                                android:textColor="@color/grey4"
+                                                android:textSize="12sp" />
+
+                                            <TextView
+                                                android:id="@+id/dt_kappa"
+                                                android:textStyle="bold"
+                                                android:layout_marginBottom="10dp"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="100%"
+                                                android:textColor="@color/black"
+                                                android:textSize="13sp" />
+
+
+                                        </LinearLayout>
+
+                                    </RelativeLayout>
+                                </androidx.cardview.widget.CardView>
+
+
+
+                            </LinearLayout>
+                            <LinearLayout
+
+
+                                android:visibility="visible"
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <androidx.cardview.widget.CardView
+
+
+                                    app:cardElevation="0dp"
+                                    android:layout_width="90dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="20dp"
+
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginRight="10dp"
+                                    app:cardCornerRadius="20dp">
+
+                                    <RelativeLayout
+
+
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:background="@color/rose">
+
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginBottom="17dp"
+                                            android:gravity="center"
+                                            android:orientation="vertical">
+
+                                            <ImageView
+
+                                                android:layout_width="70dp"
+
+                                                android:layout_height="70dp"
+
+                                                android:layout_marginTop="10dp"
+
+                                                android:src="@drawable/regression" />
+
+                                            <TextView
+
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="5dp"
+                                                android:layout_marginTop="5dp"
+
+                                                android:layout_marginRight="5dp"
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="Support Vector Machine"
+                                                android:textAlignment="center"
+                                                android:textColor="@color/white"
+                                                android:textSize="16sp"
+                                                android:textStyle="bold" />
+
+
+                                        </LinearLayout>
+                                    </RelativeLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_marginRight="20dp"
+                                    app:cardCornerRadius="20dp"
+                                    app:cardElevation="0dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                    <RelativeLayout
+
+                                        android:background="@color/white"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <LinearLayout
+
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:gravity="center"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginTop="10dp"
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="Taille de l'ensemble d'entraînement"
+                                                android:textColor="@color/grey4"
+                                                android:textSize="12sp" />
+
+                                            <TextView
+                                                android:id="@+id/svmtrain_data_size"
+                                                android:textStyle="bold"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="1200"
+                                                android:textColor="@color/black"
+                                                android:textSize="13sp" />
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginTop="5dp"
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="F-Measure"
+                                                android:textColor="@color/grey4"
+                                                android:textSize="12sp" />
+
+                                            <TextView
+                                                android:id="@+id/svm_fm"
+                                                android:textStyle="bold"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="100%"
+                                                android:textColor="@color/black"
+                                                android:textSize="13sp" />
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginTop="5dp"
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="Précision"
+                                                android:textColor="@color/grey4"
+                                                android:textSize="12sp" />
+
+                                            <TextView
+                                                android:id="@+id/svm_pre"
+                                                android:textStyle="bold"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="100%"
+                                                android:textColor="@color/black"
+                                                android:textSize="13sp" />
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginTop="5dp"
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="Faux positifs"
+                                                android:textColor="@color/grey4"
+                                                android:textSize="12sp" />
+
+                                            <TextView
+                                                android:id="@+id/svm_fp"
+                                                android:textStyle="bold"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="100%"
+                                                android:textColor="@color/black"
+                                                android:textSize="13sp" />
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginTop="5dp"
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="Kappa"
+                                                android:textColor="@color/grey4"
+                                                android:textSize="12sp" />
+
+                                            <TextView
+                                                android:id="@+id/svm_kappa"
+                                                android:textStyle="bold"
+                                                android:layout_marginBottom="10dp"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="100%"
+                                                android:textColor="@color/black"
+                                                android:textSize="13sp" />
+
+
+                                        </LinearLayout>
+
+                                    </RelativeLayout>
+                                </androidx.cardview.widget.CardView>
+
+
+
+                            </LinearLayout>
+                            <LinearLayout
+
+
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <androidx.cardview.widget.CardView
+
+
+                                    app:cardElevation="0dp"
+                                    android:layout_width="90dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="20dp"
+
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginRight="10dp"
+                                    app:cardCornerRadius="20dp">
+
+                                    <RelativeLayout
+
+
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:background="@color/biege">
+
+
+                                        <LinearLayout
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginBottom="17dp"
+                                            android:gravity="center"
+                                            android:orientation="vertical">
+
+                                            <ImageView
+
+                                                android:layout_width="70dp"
+
+                                                android:layout_height="70dp"
+
+                                                android:layout_marginTop="10dp"
+
+                                                android:src="@drawable/neural" />
+
+                                            <TextView
+
+
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="5dp"
+                                                android:layout_marginTop="5dp"
+
+                                                android:layout_marginRight="5dp"
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="Reseaux de Neurons"
+                                                android:textAlignment="center"
+                                                android:textColor="@color/black"
+                                                android:textSize="16sp"
+                                                android:textStyle="bold" />
+
+
+                                        </LinearLayout>
+                                    </RelativeLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_marginRight="20dp"
+                                    app:cardCornerRadius="20dp"
+                                    app:cardElevation="0dp"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+                                    <RelativeLayout
+
+                                        android:background="@color/white"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <LinearLayout
+
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:gravity="center"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginTop="10dp"
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="Taille de l'ensemble d'entraînement"
+                                                android:textColor="@color/grey4"
+                                                android:textSize="12sp" />
+
+                                            <TextView
+                                                android:id="@+id/nntrain_data_size"
+                                                android:textStyle="bold"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="1200"
+                                                android:textColor="@color/black"
+                                                android:textSize="13sp" />
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginTop="5dp"
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="F-Measure"
+                                                android:textColor="@color/grey4"
+                                                android:textSize="12sp" />
+
+                                            <TextView
+                                                android:id="@+id/nn_fm"
+                                                android:textStyle="bold"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="100%"
+                                                android:textColor="@color/black"
+                                                android:textSize="13sp" />
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginTop="5dp"
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="Précision"
+                                                android:textColor="@color/grey4"
+                                                android:textSize="12sp" />
+
+                                            <TextView
+                                                android:id="@+id/nn_pre"
+                                                android:textStyle="bold"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="100%"
+                                                android:textColor="@color/black"
+                                                android:textSize="13sp" />
+
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginTop="5dp"
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="Faux positifs"
+                                                android:textColor="@color/grey4"
+                                                android:textSize="12sp" />
+
+                                            <TextView
+                                                android:id="@+id/nn_fp"
+                                                android:textStyle="bold"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="100%"
+                                                android:textColor="@color/black"
+                                                android:textSize="13sp" />
+                                            <TextView
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+                                                android:layout_marginTop="5dp"
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="Kappa"
+                                                android:textColor="@color/grey4"
+                                                android:textSize="12sp" />
+
+                                            <TextView
+                                                android:id="@+id/nn_kappa"
+                                                android:textStyle="bold"
+                                                android:layout_marginBottom="10dp"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginLeft="10dp"
+
+                                                android:fontFamily="@font/source_sans_pro"
+                                                android:text="100%"
+                                                android:textColor="@color/black"
+                                                android:textSize="13sp" />
+
+
+                                        </LinearLayout>
+
+                                    </RelativeLayout>
+                                </androidx.cardview.widget.CardView>
+
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+
+                        <com.github.mikephil.charting.charts.RadarChart
+
+                            android:visibility="gone"
+
+                            android:id="@+id/piechart"
+                            android:layout_width="match_parent"
+                            android:layout_height="450dp"/>
+
+                        <com.anychart.anychart.AnyChartView
+
+                            android:visibility="gone"
+                            android:id="@+id/barchartFM"
+                            android:layout_width="match_parent"
+                            android:layout_height="450dp"/>
+
+                        <com.anychart.anychart.AnyChartView
+
+                            android:visibility="gone"
+                            android:id="@+id/barchartPR"
+                            android:layout_width="match_parent"
+                            android:layout_height="450dp"/>
+
+
+                        <com.anychart.anychart.AnyChartView
+
+                            android:visibility="gone"
+                            android:id="@+id/barchartFP"
+                            android:layout_width="match_parent"
+                            android:layout_height="450dp"/>
+
+
+                        <com.anychart.anychart.AnyChartView
+
+                            android:visibility="gone"
+                            android:id="@+id/barchartKP"
+                            android:layout_width="match_parent"
+                            android:layout_height="450dp"/>
+
+
+
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
